@@ -1,6 +1,8 @@
-# Public Skills
+# Public Skills — dependency-free
 
-Public agent skills for Claude Code, Cursor, OpenCode and any agent supporting the [Agent Skills](https://agentskills.io) open standard.
+Public agent skills for Claude Code, Cursor, OpenCode and any agent supporting the [Agent Skills](https://agentskills.io) open standard. Also compatible with [skills.sh](https://skills.sh).
+
+These skills require **no tooling to manage or run**: an agent can fetch and execute any skill with a plain `curl` — no installer, CLI tool, or registry required.
 
 No installation required. Ask your agent to execute any skill by pasting the prompt below.
 

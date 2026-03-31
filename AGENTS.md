@@ -2,7 +2,9 @@
 
 ## Project
 
-A collection of public agent skills following the [Agent Skills open standard](https://agentskills.io). Each skill lives in `skills/<name>/` and consists of a `SKILL.md` with YAML frontmatter and a `README.md` for human docs.
+A collection of public agent skills following the [Agent Skills open standard](https://agentskills.io), also compatible with [skills.sh](https://skills.sh). Each skill lives in `skills/<name>/` and consists of a `SKILL.md` with YAML frontmatter and a `README.md` for human docs.
+
+Skills require **no tooling to manage or run**: an agent can fetch and execute any skill with a plain `curl` — no installer, CLI tool, or registry required.
 
 ## Structure
 
